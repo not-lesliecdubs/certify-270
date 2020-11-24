@@ -66,7 +66,8 @@ exports.handler = async function(event, context) {
   const body = states.map(state => {
     return {
       state,
-      certifed: false
+      certifed: false,
+      certificationDate: null
     }
   })
 
